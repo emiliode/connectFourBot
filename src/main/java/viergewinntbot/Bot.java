@@ -8,7 +8,7 @@ import javax.security.auth.login.LoginException;
 
 public class Bot {
     public static void main(String[] args) throws LoginException {
-        String token = "ODQwNjQzMTA3NDk0MTY2NTcw.YJbL5w.Wj6GDgYLg78PdiuYGMpeKxVOkRE";
+        String token = "YOUR TOKEN GOES HERE";
         try
         {
             JDA jda = JDABuilder.createDefault(token) // The token of the account that is logging in.
